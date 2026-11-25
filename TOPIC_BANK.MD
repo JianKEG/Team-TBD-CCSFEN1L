@@ -1,4 +1,4 @@
-1. HealthForesight: model that predicts malnutrtion
+## 1. HealthForesight: model that predicts malnutrtion
 
 - **Idea:** Estimate each province's child malnutrition rate (stunting, underweight,
 wasting) from public data, then show the estimates on a map.
@@ -18,7 +18,7 @@ rates exist (OPT+), the thesis switches to early-childhood malnutrition. With ab
 provinces, the dataset is also small.
 - **Team interest:** 5/5 · **Feasibility:** 4/5
 
-2. Scholarship Finder
+## 2. Scholarship Finder
 - **Idea:** A chatbot that reads official scholarship guidelines (DOST-SEI, CHED, LGU, and university scholarships) and tells a student which ones they may qualify for, citing the exact section and linking the official page. It accepts questions in English, Filipino, or Taglish.
 - **Problem it addresses:** Scholarship information is scattered across many sites, each with its own requirements and deadlines. Students miss scholarships they qualify for.
 - **Closest existing work:**
@@ -31,7 +31,7 @@ provinces, the dataset is also small.
 - **Team interest:** _/5 · **Feasibility:** 4/5
 
 
-3. Government spending anomaly finder
+## 3. Government spending anomaly finder
 - **Idea:** Flag unusual government procurement contracts in PhilGEPS for human review: unit prices far above what other agencies paid for the same item, the same suppliers winning repeatedly, and purchases split into many small contracts just under the public-bidding threshold.
 - **Problem it addresses:** Overpricing and rigged bids waste public funds. Audits find them late, usually after the money is spent, and no one can manually review every contract.
 - **Closest existing work:** Procurement "red flag" indicators from corruption research, such as [Fazekas, Tóth, and King (2016)](https://doi.org/10.1007/s10610-016-9308-z), *An Objective Corruption Risk Index Using Public Procurement Data*. Confirm in the literature review whether anyone has applied them to PhilGEPS.
